@@ -7,11 +7,11 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 62.5%; /* 1rem = 10px*/
 }
 
 body {
-  font-size: 1.4rem;
+  font-size: 1.4rem; /* soit 14px*/
   font-family: "Quicksand", sans-serif;
   color: white;
 }
@@ -58,9 +58,9 @@ body {
 .modal {
   transition: top 0.9s;
   background-color: #f92995;
-  height: 100vh;
+  height: -100vh;
   position: fixed;
-  top: -100vh;
+  top: 100vh;
   left: 0;
   width: 100%;
   opacity: 0.9;
@@ -90,6 +90,7 @@ body {
   .navbar-desktop {
     display: none;
   }
+
   .navbar-mobile {
     display: block;
   }
